@@ -1,5 +1,3 @@
-face-recognition-brain-front-end
-
 Projecto final del curso The Complete Web Developer in 2022: Zero to Mastery by Andrei Neagoie
 
 Face Recognition Smart Brain - Front End
