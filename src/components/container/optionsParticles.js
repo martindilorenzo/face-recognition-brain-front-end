@@ -49,7 +49,7 @@ export const optionsParticles = {
     number: {
       density: {
         enable: true,
-        area: 700,
+        area: 500,
       },
       value: 50,
     },
