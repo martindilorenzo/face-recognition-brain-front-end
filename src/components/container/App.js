@@ -82,7 +82,7 @@ const App = () => {
   const onPictureSubmit = async () => {
     try {
       setImageUrl(input);
-      const response = await fetch('http://localhost:3000/imageurl', {
+      const response = await fetch('https://brain-api.onrender.com/imageurl', {
         method: 'post',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -90,7 +90,7 @@ const App = () => {
         })
       })
       if (response.ok) {
-        fetch('http://localhost:3000/image', {
+        fetch('https://brain-api.onrender.com/image', {
           method: 'put',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

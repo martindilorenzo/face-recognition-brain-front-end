@@ -20,7 +20,7 @@ const Form = ({ route, onRouteChange, loadUser }) => {
 
   const onSubmitRegister = (event) => {
     event.preventDefault();
-    fetch('http://localhost:3000/register', {
+    fetch('https://brain-api.onrender.com/register', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -41,7 +41,7 @@ const Form = ({ route, onRouteChange, loadUser }) => {
 
   const onSubmitSignIn = (event) => {
     event.preventDefault();
-    fetch('http://localhost:3000/signin', {
+    fetch('https://brain-api.onrender.com/signin', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
