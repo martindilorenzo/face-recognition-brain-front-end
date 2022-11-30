@@ -9,7 +9,3 @@ Permite detectar un rostro en una foto, que se pasa a través de un link. Muestr
 2- npm install 
 
 3- npm start
-
-4- Debes configurar en App.js las variables APP_ID, USER_ID, y PAT con los valores correspondientes a tu cuenta de Clarifai. Deberás crearte una cuenta en https://www.clarifai.com/
-
-El PAT lo obtienes una vez que te logueas, en la configuración de seguridad de tu cuenta.
