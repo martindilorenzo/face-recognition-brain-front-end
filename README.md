@@ -11,3 +11,9 @@ Permite detectar un rostro en una foto, que se pasa a través de un link. Muestr
 2- npm install 
 
 3- npm start
+
+Puedes probar la aplicación en el siguiente link: https://face-reco-brain.onrender.com/ 
+  1. Registra un usuario con un email y contraseña 
+  2. Copia el link de una imagen con rostro y 
+  3. Pegala en la aplicación
+  4. Click en Detect
